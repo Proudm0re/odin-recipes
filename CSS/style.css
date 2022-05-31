@@ -1,23 +1,44 @@
 body {
     background-color: black;
-    color: aliceblue;
-    font-size: 18px;
+    font-style: italic;
 }
 
-
-ul, ol {
-    color: rgb(202, 188, 233);
-    font-size: 16px;
+div {
+    background-color: aqua;
+    font-size: 30px;
+    height: 250px 100px;
+    margin: 25px;
+    padding: 25px;
+    border: 15px;
+    border-color: blueviolet;
+    border-style: groove;
+    text-align: center;
 }
 
-h4, h5 {
-    color: orange;
+span {
+    font-size: 100px;
+    color: yellow;
+    margin: 50px;
+    background-color: black;
+}
+
+.intro {
+
+    font-size: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(../images/dog.jpg);
+    border-color: blue;
+    background-size: contain;
+
+}
+
+/* This is now cascading because span is already applying effects */
+
+.intro-1 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-
-}
-
-h1 {
     color: azure;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
 }
